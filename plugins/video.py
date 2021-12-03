@@ -1,6 +1,6 @@
 """
 VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  ZeroGamer01 <https://github.com/ZeroGamer01>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -212,7 +212,7 @@ async def stream(client, m: Message):
             await msg.delete()
             await m.reply_photo(
                photo=thumb,
-               caption=f"▶️ **Started [Video Streaming](https://t.me/AsmSafone) In {m.chat.title} !**",
+               caption=f"▶️ **Started [Video Streaming](https://t.me/ZeroGamer01) In {m.chat.title} !**",
                reply_markup=InlineKeyboardMarkup(
                [
                    [
